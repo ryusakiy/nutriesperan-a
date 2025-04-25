@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nutri Esperança</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+    body {
+      background-color: #fefefe;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      font-size: 1.8rem;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    #hero {
+      background: url('https://images.unsplash.com/photo-1588776814546-ec6fae2a013b') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    #hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .botao {
+      display: inline-block;
+      background-color: #ff9800;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+    .botao:hover {
+      background-color: #e68900;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #4CAF50;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+    .video-container iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nutri Esperança</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#video">Vídeo</a>
+      <a href="#doacao">Como Ajudar</a>
+    </nav>
+  </header>
+  <section id="hero">
+    <h2>Ajude a Nutrir o Futuro</h2>
+    <p>Doe leite e alimente a esperança de crianças e famílias em situação de vulnerabilidade.</p>
+    <a href="#doacao" class="botao">Como Ajudar</a>
+  </section>
+  <section id="sobre">
+    <h3>Sobre a Campanha</h3>
+    <p>
+      A campanha <strong>Nutri Esperança</strong> é uma iniciativa da ETEC voltada para arrecadar leite,
+      com o objetivo de atender crianças e famílias em situação de vulnerabilidade social.
+      Unimos <strong>saúde</strong>, <strong>educação</strong> e <strong>inclusão</strong> para transformar realidades.
+    </p>
+  </section>
+  <section id="video">
+    <h3>Assista ao Vídeo da Campanha</h3>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SEU_VIDEO_AQUI" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section id="doacao">
+    <h3>Como Você Pode Ajudar</h3>
+    <ul>
+      <li>📍 Entregue sua doação de leite na ETEC</li>
+      <li>📣 Compartilhe a campanha nas redes sociais</li>
+      <li>🤝 Envolva sua comunidade</li>
+    </ul>
+    <p><strong>Chave Pix:</strong> pix@nutriesperanca.org</p>
+  </section>
+  <footer>
+    <p>© 2025 ETEC • Campanha Nutri Esperança</p>
+    <p>Desenvolvido pelos alunos</p>
+  </footer>
+</body>
+</html>
